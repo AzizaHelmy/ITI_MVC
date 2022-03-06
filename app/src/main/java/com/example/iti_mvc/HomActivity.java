@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.iti_mvc.allMovies.controller.MainActivity;
-import com.example.iti_mvc.favMovies.controller.FavMovieActivity;
+import com.example.iti_mvc.allMovies.view.MainActivity;
+import com.example.iti_mvc.favMovies.view.FavMovieActivity;
 
 public class HomActivity extends AppCompatActivity {
     Button buttAllMovies;

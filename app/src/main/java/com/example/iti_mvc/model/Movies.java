@@ -12,7 +12,7 @@ import java.io.Serializable;
 import java.util.List;
 
 @Entity(tableName = "movies")
-public class Movies implements Serializable {
+public class Movies implements Serializable{
     @PrimaryKey
     @NonNull
     private String title;
